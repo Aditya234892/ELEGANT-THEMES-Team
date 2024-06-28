@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../products/styles.css" />
+  </head>
+  <body>
+    <section>
+        <div class="row-container narrow">
+            <div class="row">
+                <div class="column-container">
+                    <div class="column centered">
+                        <h1>Contact Us</h1>
+                        <p class="lead">Please get in touch if you have any questions about Sales, Billing, or Technical Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-container narrow">
+            <div id="contact-cards" class="row">
+                <div class="column-container">
+                    <div class="column blurb card accent-purple centered">
+                        <svg class="icon-big">
+                            <title>Sales, Accounts & Billing</title>
+                            <path class="transparent" d="M0,32C0,14.33,14.33,0,32,0s32,14.33,32,32S49.67,64,32,64S0,49.67,0,32z"/>
+                            <path d="M47,50.1c0,9.86-30,9.86-30,0c0-14.4,7.12-21.6,15-21.6S47,35.7,47,50.1z M41,15.5c0,4.82-4.18,9-9,9 s-9-4.18-9-9s4.18-9,9-9S41,10.68,41,15.5z"/>
+                        </svg>
+                        <h2 class="card-title">Sales, Accounts & Billing</h2>
+                        <p>Send us an email if you have any questions about billing or your Elegant Themes account</p>
+                        <form name="et-contactform" id="et_manage_form" action="https://www.elegantthemes.com/contact/mailer.php" method="post">
+                            <div class="et_manage_input">
+                                <input type="text" id="contact-name" placeholder="Name" autocomplete="off" name="name" value size="20" tabindex="10" required>
+                                <label>Name</label>
+                            </div>
+                            <div class="et_manage_input">
+                                <input type="email" id="contact-email" placeholder="Email Address" autocomplete="off" name="from" value size="20" tabindex="20" required>
+                                <label>Email Address</label>
+                            </div>
+                            <div class="et_manage_input et_filled">
+                                <select tabindex="30" id="contact-department" name="department" required>
+                                    <option value="sales">Sales and General Information</option>
+                                    <option value="accounts">Accounts and Billing</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label>What can we help you with?</label>
+                            </div>
+                            <div class="et_manage_input et_manage_textarea">
+                                <textarea type="text" rows="4" id="contact-message" placeholder="Your Message" autocomplete="off" name="message" tabindex="40" required></textarea>
+                                <label>Your Message</label>
+                            </div>
+                            <div id="captcha">
+                                <div class="et_manage_input et_manage_input_half">
+                                    <input tabindex="50" id="contact-captcha" type="number" name="verif_box" value placeholder="Enter Code" autocomplete="off" required>
+                                    <label>Enter Code</label>
+                                   
+                                </div>
+                            </div>
+                            <input class="button primary-button fullwidth-button" type="submit" name="submit" id="contact-submit" value="Submit Message" tabindex="100">
+                        </form>
+                        <p>
+                            Data stored as outlined in our <a href="https://www.elegantthemes.com/policy/privacy/">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="column-container">
+                    <div class="column card accent-light-blue centered">
+                        <div class="column blurb centered">
+                            <svg class="icon-big">
+                                <title>Technical Support</title>
+                                <path d="M26.02,19.73l18.92,18.92c4.28-1.62,9.3-0.71,12.75,2.74c3.69,3.69,4.48,9.2,2.35,13.66l-7.05-7.05 c-1.55-1.55-4.05-1.55-5.6,0c-1.55,1.55-1.55,4.05,0,5.6l7.07,7.07c-4.47,2.18-10.02,1.41-13.74-2.31 c-3.42-3.42-4.35-8.4-2.77-12.67L18.98,26.72c-4.26,1.58-9.24,0.66-12.67-2.77c-3.69-3.69-4.48-9.2-2.35-13.66l7.05,7.05 c1.55,1.55,4.05,1.55,5.6,0c1.55-1.55,1.55-4.05,0-5.6L9.55,4.68c4.47-2.18,10.02-1.41,13.74,2.31 C26.73,10.43,27.64,15.45,26.02,19.73z"/>
+                                <path class="transparent" d="M13.02,47.4l13.32-13.32l-1.62-1.62L49.93,2.92c1.22-1.22,3.18-1.22,4.4,0l6.47,6.49c1.22,1.22,1.22,3.2,0,4.42 L31.6,39.34l-1.78-1.79L16.5,50.88l-4.51,8.51l-6.54,2.54l-3.48-3.48l2.67-6.67L13.02,47.4z"/>
+                            </svg>
+                            <h2 class="card-title">Technical Support</h2>
+                            <p>If you ever need help, you can chat directly with our support team!</p>
+                            <a href="https://www.elegantthemes.com/contact/support/" class="button primary-button fullwidth-button launch_intercom">Chat With Support</a>
+                            <h4 class="colored-header">You must be an active Elegant Themes customer to receive support.</h4>
+                        </div>
+                        <a href="https://www.elegantthemes.com/forum/" class="button tertiary-button fullwidth-button">Ask The Community</a>
+                        <a href="https://www.elegantthemes.com/documentation/" class="button tertiary-button fullwidth-button">Browse Documentation</a>
+                        <a href="https://www.facebook.com/groups/DiviThemeUsers/" class="button tertiary-button fullwidth-button" target="_blank">Join the Divi Facebook Group</a>
+                        <a href="https://www.elegantthemes.com/blog/" class="button tertiary-button fullwidth-button">Explore the Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row-container narrow">
+            <div class="row">
+                <div class="column-container">
+                    <div class="column centered">
+                        <h2>Frequently Asked Questions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row accent-blue">
+                <div class="column-container">
+                    <div class="column ">
+                        <ul class="accordion">
+                            <li>
+                                <a class="active">
+                                    <h4>Why choose Elegant Themes?</h4>
+                                </a>
+                                <p>Elegant Themes is a leader in WordPress development. We have been building WordPress Themes for 10 years and tend one of the largest customer bases of any company in the market. Our designs are beautiful, functional and affordable. With dozens of themes for $89, you are getting access to one of the largest collections of premium themes available for half the price that our competitors pay for a single theme!</p>
+        
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I use the themes and plugins on multiple websites?</h4>
+                                </a>
+                                <p>Yes, you are free to use our themes on as many websites as you like. We do not place any restrictions on how many times you can download or use a theme, nor do we limit the number of domains that you can install our themes to.</p>
+                
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>What if I change my mind and want a refund?</h4>
+                                </a>
+                                <p>We offer no-questions-asked refunds to all customers within 30 days of your purchase. If you are not satisfied with our product, then simply send us an email and we will refund your purchase right away. Our goal has always been to create a happy, thriving community. If you are not thrilled with the product or are not enjoying the experience, then we have no interest in forcing you to stay an unhappy member.</p>
+                               
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I upgrade to a different package after signing up?</h4>
+                                </a>
+                                <p>Yes, you can upgrade at any time after signing up. When you log in as a "personal" subscriber, you will see a notice regarding your current package and instructions on how to upgrade.</p>
+                               
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I use your themes on WordPress.com</h4>
+                                </a>
+                                <p>Our products will work with the WordPress.com Business Plan, which allows the installation of third party themes and plugins.</p>
+                                
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I use Elegant Themes products for my clients?</h4>
+                                </a>
+                                <p>Yes, you are free to use our themes to build websites for your clients. We love providing developers with beautiful and functional design choices for their clients!</p>
+                               
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>What happens if I cancel my subscription?</h4>
+                                </a>
+                                <p>If you cancel your subscription, then your account will remain active for the remainder of your one year term. After that, you will lose access to the members area and all new themes, theme updates and tech support. You may continue using the themes that you have already downloaded forever.</p>
+                                
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I buy a single product instead of becoming a full member?</h4>
+                                </a>
+                                <p>Our themes are only available as part of the membership. However, I think you will find that $89 is an incredible deal, even if you only intend to use a single theme from our collection. $89 is less than the price you would pay for a single theme at many other theme shops, and here you get access to a lot more!</p>
+                                
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Will your themes work with third party plugins?</h4>
+                                </a>
+                                <p>While our themes should work fine with most plugins, there is no way for us to test and guarantee that all plugins will work. All we can guarantee is that our themes are coded excellently and that any plugin that also uses coding best practices should play well with our themes. If you run into any problems, let us know so that we can look into it. We also offer a 30 day money back guarantee just in case you discover that one of your third party plugins isn't working and you decide to use a different theme instead.</p>
+                               
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Do I need to install the Divi Builder plugin with the Divi Theme?</h4>
+                                </a>
+                                <p>Nope, the Divi theme and the Extra theme both come with the Divi Builder packaged as part of the theme. There is no need to use the Divi Builder plugin if you are planning to use one of these two themes. If you ever decide to switch to a different theme after having built your website with Divi or Extra, the Divi Builder plugin can be installed so that you can continue to enjoy the power of the Divi Builder with your third party theme.</p>
+                               
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
