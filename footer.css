@@ -87,6 +87,7 @@ footer{
     color: white;
     font-size: 16px;
     font-weight: 600;
+    transition: all 0.4s cubic-bezier(0.08, 0.4, 0.63, 0.99);
 }
 
 .box p{
@@ -103,6 +104,7 @@ footer{
     height: 100vh;
     overflow: hidden;
     /* border: 5px solid purple; */
+    transition: all 0.7s cubic-bezier(0.08, 0.4, 0.63, 0.99);
 }
 
 .purple-overlay{
@@ -117,7 +119,7 @@ footer{
 
 .footer-1:hover{
     transform: scale(1.3);
-    transition: all 0.8s ease;
+    /* transition: all 0.8s ease; */
 }
 
 .footer-1:hover .purple-overlay{
@@ -129,7 +131,8 @@ footer{
     background-color: #4837ff;
     cursor: pointer;
     transform: translateY(-4px);
-    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 4px 10px #c0c2e4;
+    /* transition: all 0.4s ease-in-out; */
 }
 
 .footer-2{
@@ -166,13 +169,14 @@ footer .cards .card{
     font-weight: 600;
     font-size: 14px;
     border-radius: 10px;
+    transition: all 0.4s cubic-bezier(0.08, 0.4, 0.63, 0.99);
 }
 
 .cards .card:hover{
     box-shadow: 0 2px 8px 0 rgba(103, 151, 255, .2), 0 4px 32px 0 rgba(103, 151, 255, .2);
     cursor: pointer;
     transform: scale(1.01);
-    transition: all 0.8s ease;
+    /* transition: all 0.8s ease; */
 }
 
 footer .content{
@@ -196,6 +200,7 @@ footer .content{
     margin-bottom: 15px;
     /* align-items: start; */
     row-gap: 4%;
+    transition: all 0.4s cubic-bezier(0.08, 0.4, 0.63, 0.99);
     p{
         color: #6d7d90;
         font-size: 14px;

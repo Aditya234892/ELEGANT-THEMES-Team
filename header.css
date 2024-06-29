@@ -12,11 +12,11 @@
     align-items: center;
     justify-content: space-between;
     /* column-gap: 12%; */
-    background-color: white;
+    background-color: #FFFFFF;
     padding-top: 2px;
     position: fixed;
     z-index: 20;
-    box-shadow: 0px 0px 60px 0px #e4d1f7;
+    box-shadow: 0px 0px 50px 0px #726185;
 }
 
 .header-image img{
@@ -38,14 +38,13 @@
 }
 
 .nav-items li{
-    
     padding: 20px 30px;
     cursor: pointer;
 } 
 
 .nav-items li a{
     text-decoration: none;
-    color:  #20292F99;
+    color: #20292F99;
 }
 
 .menu{
@@ -65,13 +64,14 @@
     background-color: #ff4ac2;
     border-radius: 50px;
     letter-spacing: 1px;
+    transition: all 0.4s cubic-bezier(0.08, 0.4, 0.63, 0.99);
 }
 
 .last-list-item:hover{
     transform: translateY(-2px);
     background: linear-gradient(150deg, rgba(255, 74, 158, 0), #ff3190);
     background-color: #ff4ac2;
-    box-shadow: 0px 5px 20px #ff3190;
+    box-shadow: 0px 4px 10px #ab7e93;
     transition: all 0.3s;
 }
 
@@ -87,6 +87,16 @@
     border-radius: 10px;
 }
 
+.hover-content-1 .fa-play{
+    font-size: 28px;
+    position: absolute;
+    transform: rotate(270deg);
+    left: 195px;
+    top: -23px;
+    color: white;
+}
+
+
 .nav-1:hover .hover-content-1{
     opacity: 1;
     visibility: visible;
@@ -96,6 +106,8 @@
 
 .nav-1:hover a{
     color: black;
+    box-shadow: 0px 15px 70px 5px rgb(193, 189, 189);
+    background-color: rgb(248, 244, 244);
 }
 
 .hover-content-1 .left-side-content{
@@ -183,12 +195,14 @@
     background-color: rgb(5, 120, 239);
     position: relative;
     top: 10%;
+    transition: all 0.4s cubic-bezier(0.08, 0.4, 0.63, 0.99);
 }
 
 .right-side-content .button:hover{
     background-color: rgb(5, 130, 239);
+    box-shadow: 0px 4px 10px #c0c2e4;
     transform: translateY(-4px);
-    transition: all 0.4s ease-in-out;
+    /* transition: all 0.4s ease-in-out; */
 }
 
 .fa-solid, .fa-brands{
@@ -250,6 +264,15 @@
     border-radius: 10px;
 }
 
+.hover-content-2 .fa-play{
+    font-size: 28px;
+    color: white;
+    transform: rotateZ(270deg);
+    position: absolute;
+    left: 285px;
+    top: -23px;
+}
+
 .hover-content-2 .portion{
     display: flex;
     flex-direction: column;
@@ -259,6 +282,7 @@
     text-align: center;
     border-radius: 10px;
     transform: scale(1.05);
+    transition: all 0.15s cubic-bezier(0, 0, 0.63, 0.99);
     h3{
         margin: 15px 0px;
     }
@@ -266,7 +290,6 @@
 
 .hover-content-2 .portion:hover{
     transform: scale(1.02);
-    transition: all 0.5s ease;
 }
 
 .hover-content-2 .portion-1{
@@ -337,11 +360,13 @@
     opacity: 1;
     visibility: visible;
     cursor: pointer;
-    transition: all 0.6s ease; 
+    transition: all 0.4s ease; 
 }
 
 .nav-2:hover a{
     color: black;
+    box-shadow: 0px 15px 70px 5px rgb(193, 189, 189);
+    background-color: rgb(248, 244, 244);
 }
 
 .hover-content-3{
@@ -360,6 +385,14 @@
     border-radius: 10px;
 }
 
+.hover-content-3 .fa-play{
+    font-size: 28px;
+    position: absolute;
+    transform: rotateZ(270deg);
+    top: -23px;
+    color: white;
+}
+
 .nav-3:hover .hover-content-3{
     opacity: 1;
     visibility: visible;
@@ -369,6 +402,8 @@
 
 .nav-3:hover a{
     color: black;
+    box-shadow: 0px 15px 70px 5px rgb(193, 189, 189);
+    background-color: rgb(248, 244, 244);
 }
 
 .hover-content-3 .content{
@@ -428,13 +463,15 @@
     color: white;
     font-size: 12px;
     font-weight: 600;
+    transition: all 0.4s cubic-bezier(0.08, 0.4, 0.63, 0.99);
 }
 
 .hover-content-3 button:hover{
     background-color: #9a55ee;
     top: 24.5%;
+    box-shadow: 0px 4px 10px #c0c2e4;
     transform: translateY(-4px);
-    transition: all 0.4s ease-in-out;
+    /* transition: all 0.4s ease-in-out; */
 }
 
 .hover-content-3 .portions:hover p{
@@ -457,6 +494,14 @@
     border-radius: 10px;
 }
 
+.hover-content-4 .fa-play{
+    font-size: 28px;
+    position: absolute;
+    transform: rotateZ(270deg);
+    top: -23px;
+    color: white;
+}
+
 .nav-4:hover .hover-content-4{
     opacity: 1;
     visibility: visible;
@@ -466,6 +511,8 @@
 
 .nav-4:hover a{
     color: black;
+    box-shadow: 0px 15px 70px 5px rgb(193, 189, 189);
+    background-color: rgb(248, 244, 244);
 }
 
 .hover-content-4 .portions{
@@ -497,14 +544,16 @@
     font-weight: 600;;
     border-radius: 20px;
     /* margin-top: 5%; */
+    transition: all 0.4s cubic-bezier(0.08, 0.4, 0.63, 0.99);
 }
 
 .hover-content-4 button:hover{
     background-color: #4e83f8;
     top: 24.5%;
     cursor: pointer;
+    box-shadow: 0px 4px 10px #c0c2e4;
     transform: translateY(-4px);
-    transition: all 0.4s ease-in-out;
+    /* transition: all 0.4s ease-in-out; */
 }
 
 .hover-content-4 .portions .fa-arrow-right{
@@ -539,6 +588,14 @@
     visibility: hidden;
 }
 
+.hover-content-5 .fa-play{
+    font-size: 28px;
+    position: absolute;
+    transform: rotateZ(270deg);
+    top: -23px;
+    color: white;
+}
+
 .nav-5:hover .hover-content-5{
     opacity: 1;
     visibility: visible;
@@ -548,6 +605,8 @@
 
 .nav-5:hover a{
     color: black;
+    box-shadow: 0px 15px 70px 5px rgb(193, 189, 189);
+    background-color: rgb(248, 244, 244);
 }
 
 .hover-content-5 form{
@@ -603,13 +662,15 @@
     letter-spacing: 0.5px;
     position: relative;
     bottom: 8%;
+    transition: all 0.4s cubic-bezier(0.08, 0.4, 0.63, 0.99);
 }
 
 .hover-content-5 button:hover{
     background-color: #4837ff;
     cursor: pointer;
     transform: translateY(-4px);
-    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 4px 10px #c0c2e4;
+    /* transition: all 0.4s ease-in-out; */
 }
 
 .hover-content-5 p{
