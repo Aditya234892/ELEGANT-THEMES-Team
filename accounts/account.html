@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accounts</title>
+    <link rel="stylesheet" href="../products/styles.css" />
+  </head>
+  <body>
+    <section>
+      <div class="narrow row-container">
+        <div class="row">
+          <div class="column-container">
+            <div class="column centered accent-pink">
+              <h1>Members Area</h1>
+              <p class="lead accent-purple">
+                Download Products, Manage Your Account and
+                <a href="/contact/support/" class="launch_intercom"
+                  >Chat With Us</a
+                >
+                24/7
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skinny login-row row-container">
+        <div class="row">
+          <div class="column-container">
+            <div class="column centered">
+              <div
+                id="login-card"
+                class="column blurb card accent-blue centered"
+              >
+                <svg class="icon-big">
+                  <path
+                    class="transparent"
+                    d="M0,32C0,14.33,14.33,0,32,0s32,14.33,32,32S49.67,64,32,64S0,49.67,0,32z"
+                  ></path>
+                  <path
+                    d="M34,42.96c1.2-0.69,2-1.98,2-3.46c0-2.21-1.79-4-4-4s-4,1.79-4,4c0,1.48,0.8,2.77,2,3.46v6.54c0,1.1,0.9,2,2,2 c1.1,0,2-0.9,2-2V42.96z M47,50.1c0,9.86-30,9.86-30,0c0-14.4,7.12-21.6,15-21.6S47,35.7,47,50.1z M41,15.5c0,4.82-4.18,9-9,9 s-9-4.18-9-9s4.18-9,9-9S41,10.68,41,15.5z"
+                  ></path>
+                </svg>
+                <form
+                  name="et-loginform"
+                  id="et_manage_form"
+                  action="https://www.elegantthemes.com/members-area/login/"
+                  method="POST"
+                >
+                  <input
+                    type="hidden"
+                    name="_token"
+                    value="4k35QzLkKL97b3t4TqS9hxUhmFndQPZZBJMSjDFz"
+                  />
+                  <div class="et_manage_input">
+                    <input
+                      type="text"
+                      placeholder="Username"
+                      autocomplete="off"
+                      name="username"
+                      value=""
+                      size="20"
+                    />
+                    <label>Username</label>
+                  </div>
+                  <div class="et_manage_input">
+                    <input
+                      type="password"
+                      size="20"
+                      name="password"
+                      placeholder="Password"
+                    />
+                    <label>Password</label>
+                  </div>
+                  <label
+                    for="remember_me"
+                    style="display: block; text-align: left"
+                  >
+                    <input
+                      type="checkbox"
+                      id="remember_me"
+                      name="remember"
+                      checked=""
+                    />
+                    <span>Remember Me</span>
+                    <span class="help-tooltip">
+                      <span class="help-tooltip-icon elevation-1">?</span>
+                      <span class="help-tooltip-tooltip elevation-2"
+                        >Your browser will remain logged in to Elegant Themes
+                        for 1 month, or until you log out.</span
+                      >
+                    </span>
+                  </label>
+                  <input
+                    class="button primary-button fullwidth-button"
+                    type="submit"
+                    name="submit"
+                    id="et-wp-submit"
+                    value="Log In"
+                  />
+                </form>
+                <p>
+                  Forgot Your
+                  <a href="/members-area/retrieve-username/">Username</a>
+                  or
+                  <a href="/members-area/forgot-password/">Password</a>?
+                </p>
+              </div>
+              <a class="button primary-button accent-pink" href="/join/"
+                >Not a Member Yet? Join Today!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
