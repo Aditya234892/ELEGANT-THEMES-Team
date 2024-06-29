@@ -15,7 +15,7 @@ footer{
     overflow-x: hidden;
 }
 
-.foot-1{
+ footer .foot-1{
     width: 72.5%;
     height: 60vh;
     /* margin: auto; */
@@ -107,13 +107,14 @@ footer{
     transition: all 0.7s cubic-bezier(0.08, 0.4, 0.63, 0.99);
 }
 
-.purple-overlay{
+
+footer  .purple-overlay{
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: -10;
     /* border: 2px solid red; */
-    background-color: #5b19e9;
+    /* background-color: #5b19e9; */
     opacity: 0;
 }
 

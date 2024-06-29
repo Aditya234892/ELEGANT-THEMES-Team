@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-between;
     /* column-gap: 12%; */
+    top: 0;
     background-color: #FFFFFF;
     padding-top: 2px;
     position: fixed;
@@ -95,7 +96,6 @@
     top: -23px;
     color: white;
 }
-
 
 .nav-1:hover .hover-content-1{
     opacity: 1;
