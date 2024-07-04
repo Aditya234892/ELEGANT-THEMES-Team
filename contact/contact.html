@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../products/styles.css" />
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+  </head>
+  <body>
+
+    <header class="header" id="navbar">
+        <section class="header-image">
+            <a href="../index.html"><img src="https://www.elegantthemes.com/images/logo.svg" alt=""></a>
+        </section>
+  
+        <section >
+            <ul class="nav-items">
+                <li class="nav-1"><a href="../divi/divi.html">DIVI</a></li>
+                <li class="nav-2"><a href="../DiviFor/divifor.html">DIVI FOR</a></li>
+                <li class="nav-3"><a href="../products/allproducts.html">ALL PRODUCTS</a></li>
+                <li class="nav-4"><a href="../contact/contact.html">CONTACT</a></li>
+                <li class="nav-5"><a href="../accounts/account.html">ACCOUNT</a></li>
+                <li class="last-list-item" style="padding: 13px  46px;">PRICING</li>
+            </ul>
+            
+            <section class="menu">
+                <i class="fa-solid fa-bars" style="color: black;"></i>
+            </section>
+        </section>
+    </header>
+
+    <section>
+        <div class="row-container narrow">
+            <div class="row">
+                <div class="column-container">
+                    <div class="column centered">
+                        <h1>Contact Us</h1>
+                        <p class="lead">Please get in touch if you have any questions about Sales, Billing, or Technical Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-container narrow">
+            <div id="contact-cards" class="row">
+                <div class="column-container">
+                    <div class="column blurb card accent-purple centered">
+                        <svg class="icon-big">
+                            <title>Sales, Accounts & Billing</title>
+                            <path class="transparent" d="M0,32C0,14.33,14.33,0,32,0s32,14.33,32,32S49.67,64,32,64S0,49.67,0,32z"/>
+                            <path d="M47,50.1c0,9.86-30,9.86-30,0c0-14.4,7.12-21.6,15-21.6S47,35.7,47,50.1z M41,15.5c0,4.82-4.18,9-9,9 s-9-4.18-9-9s4.18-9,9-9S41,10.68,41,15.5z"/>
+                        </svg>
+                        <h2 class="card-title">Sales, Accounts & Billing</h2>
+                        <p>Send us an email if you have any questions about billing or your Elegant Themes account</p>
+                        <form name="et-contactform" id="et_manage_form" action="https://www.elegantthemes.com/contact/mailer.php" method="post">
+                            <div class="et_manage_input">
+                                <input type="text" id="contact-name" placeholder="Name" autocomplete="off" name="name" value size="20" tabindex="10" required>
+                                <label>Name</label>
+                            </div>
+                            <div class="et_manage_input">
+                                <input type="email" id="contact-email" placeholder="Email Address" autocomplete="off" name="from" value size="20" tabindex="20" required>
+                                <label>Email Address</label>
+                            </div>
+                            <div class="et_manage_input et_filled">
+                                <select tabindex="30" id="contact-department" name="department" required>
+                                    <option value="sales">Sales and General Information</option>
+                                    <option value="accounts">Accounts and Billing</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label>What can we help you with?</label>
+                            </div>
+                            <div class="et_manage_input et_manage_textarea">
+                                <textarea type="text" rows="4" id="contact-message" placeholder="Your Message" autocomplete="off" name="message" tabindex="40" required></textarea>
+                                <label>Your Message</label>
+                            </div>
+                            <div id="captcha">
+                                <div class="et_manage_input et_manage_input_half">
+                                    <input tabindex="50" id="contact-captcha" type="number" name="verif_box" value placeholder="Enter Code" autocomplete="off" required>
+                                    <label>Enter Code</label>
+                                   
+                                </div>
+                            </div>
+                            <input class="button primary-button fullwidth-button" type="submit" name="submit" id="contact-submit" value="Submit Message" tabindex="100">
+                        </form>
+                        <p>
+                            Data stored as outlined in our <a href="https://www.elegantthemes.com/policy/privacy/">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="column-container">
+                    <div class="column card accent-light-blue centered">
+                        <div class="column blurb centered">
+                            <svg class="icon-big">
+                                <title>Technical Support</title>
+                                <path d="M26.02,19.73l18.92,18.92c4.28-1.62,9.3-0.71,12.75,2.74c3.69,3.69,4.48,9.2,2.35,13.66l-7.05-7.05 c-1.55-1.55-4.05-1.55-5.6,0c-1.55,1.55-1.55,4.05,0,5.6l7.07,7.07c-4.47,2.18-10.02,1.41-13.74-2.31 c-3.42-3.42-4.35-8.4-2.77-12.67L18.98,26.72c-4.26,1.58-9.24,0.66-12.67-2.77c-3.69-3.69-4.48-9.2-2.35-13.66l7.05,7.05 c1.55,1.55,4.05,1.55,5.6,0c1.55-1.55,1.55-4.05,0-5.6L9.55,4.68c4.47-2.18,10.02-1.41,13.74,2.31 C26.73,10.43,27.64,15.45,26.02,19.73z"/>
+                                <path class="transparent" d="M13.02,47.4l13.32-13.32l-1.62-1.62L49.93,2.92c1.22-1.22,3.18-1.22,4.4,0l6.47,6.49c1.22,1.22,1.22,3.2,0,4.42 L31.6,39.34l-1.78-1.79L16.5,50.88l-4.51,8.51l-6.54,2.54l-3.48-3.48l2.67-6.67L13.02,47.4z"/>
+                            </svg>
+                            <h2 class="card-title">Technical Support</h2>
+                            <p>If you ever need help, you can chat directly with our support team!</p>
+                            <a href="https://www.elegantthemes.com/contact/support/" class="button primary-button fullwidth-button launch_intercom">Chat With Support</a>
+                            <h4 class="colored-header">You must be an active Elegant Themes customer to receive support.</h4>
+                        </div>
+                        <a href="https://www.elegantthemes.com/forum/" class="button tertiary-button fullwidth-button">Ask The Community</a>
+                        <a href="https://www.elegantthemes.com/documentation/" class="button tertiary-button fullwidth-button">Browse Documentation</a>
+                        <a href="https://www.facebook.com/groups/DiviThemeUsers/" class="button tertiary-button fullwidth-button" target="_blank">Join the Divi Facebook Group</a>
+                        <a href="https://www.elegantthemes.com/blog/" class="button tertiary-button fullwidth-button">Explore the Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row-container narrow">
+            <div class="row">
+                <div class="column-container">
+                    <div class="column centered">
+                        <h2>Frequently Asked Questions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row accent-blue">
+                <div class="column-container">
+                    <div class="column ">
+                        <ul class="accordion">
+                            <li>
+                                <a class="active">
+                                    <h4>Why choose Elegant Themes?</h4>
+                                </a>
+                                <p>Elegant Themes is a leader in WordPress development. We have been building WordPress Themes for 10 years and tend one of the largest customer bases of any company in the market. Our designs are beautiful, functional and affordable. With dozens of themes for $89, you are getting access to one of the largest collections of premium themes available for half the price that our competitors pay for a single theme!</p>
+        
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I use the themes and plugins on multiple websites?</h4>
+                                </a>
+                                <p>Yes, you are free to use our themes on as many websites as you like. We do not place any restrictions on how many times you can download or use a theme, nor do we limit the number of domains that you can install our themes to.</p>
+                
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>What if I change my mind and want a refund?</h4>
+                                </a>
+                                <p>We offer no-questions-asked refunds to all customers within 30 days of your purchase. If you are not satisfied with our product, then simply send us an email and we will refund your purchase right away. Our goal has always been to create a happy, thriving community. If you are not thrilled with the product or are not enjoying the experience, then we have no interest in forcing you to stay an unhappy member.</p>
+                               
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I upgrade to a different package after signing up?</h4>
+                                </a>
+                                <p>Yes, you can upgrade at any time after signing up. When you log in as a "personal" subscriber, you will see a notice regarding your current package and instructions on how to upgrade.</p>
+                               
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I use your themes on WordPress.com</h4>
+                                </a>
+                                <p>Our products will work with the WordPress.com Business Plan, which allows the installation of third party themes and plugins.</p>
+                                
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I use Elegant Themes products for my clients?</h4>
+                                </a>
+                                <p>Yes, you are free to use our themes to build websites for your clients. We love providing developers with beautiful and functional design choices for their clients!</p>
+                               
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>What happens if I cancel my subscription?</h4>
+                                </a>
+                                <p>If you cancel your subscription, then your account will remain active for the remainder of your one year term. After that, you will lose access to the members area and all new themes, theme updates and tech support. You may continue using the themes that you have already downloaded forever.</p>
+                                
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Can I buy a single product instead of becoming a full member?</h4>
+                                </a>
+                                <p>Our themes are only available as part of the membership. However, I think you will find that $89 is an incredible deal, even if you only intend to use a single theme from our collection. $89 is less than the price you would pay for a single theme at many other theme shops, and here you get access to a lot more!</p>
+                                
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Will your themes work with third party plugins?</h4>
+                                </a>
+                                <p>While our themes should work fine with most plugins, there is no way for us to test and guarantee that all plugins will work. All we can guarantee is that our themes are coded excellently and that any plugin that also uses coding best practices should play well with our themes. If you run into any problems, let us know so that we can look into it. We also offer a 30 day money back guarantee just in case you discover that one of your third party plugins isn't working and you decide to use a different theme instead.</p>
+                               
+                            </li>
+                            <li>
+                                <a>
+                                    <h4>Do I need to install the Divi Builder plugin with the Divi Theme?</h4>
+                                </a>
+                                <p>Nope, the Divi theme and the Extra theme both come with the Divi Builder packaged as part of the theme. There is no need to use the Divi Builder plugin if you are planning to use one of these two themes. If you ever decide to switch to a different theme after having built your website with Divi or Extra, the Divi Builder plugin can be installed so that you can continue to enjoy the power of the Divi Builder with your third party theme.</p>
+                               
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>    
+        <div class="footer-1">
+            <div class="purple-overlay"></div>
+            <svg viewBox="0 0 300 322" class="background-1">
+                <title>Colorful Shapes</title>
+                <defs>
+                <linearGradient id="gradient" gradientTransform="rotate(45)">
+                <stop offset="5%" stop-color="rgba(233,244,255,1)"></stop>
+                <stop offset="95%" stop-color="rgba(233,244,255,0)"></stop>
+                </linearGradient>
+                </defs>
+                <path fill="url(#gradient)" d="M300,211.09V110.76c0-21.47-11.55-41.27-30.23-51.85L179.35,7.73c-18.21-10.31-40.48-10.31-58.69,0L30.23,58.91 C11.55,69.48,0,89.29,0,110.76v100.33c0,21.47,11.55,41.27,30.23,51.85l90.42,51.18c18.21,10.31,40.48,10.31,58.69,0l90.42-51.18 C288.45,252.36,300,232.55,300,211.09z"></path>
+                </svg>
+
+                <div class="circle-1"></div>
+            <section class="foot-1">
+                <div class="box">
+                    <div class="inner-box">
+                        <h1>974,872 Customers Are Already Building Amazing Websites With Divi. Join The Most Empowered WordPress Community On The Web</h1>
+                        <button>SIGN UP TODAY</button>
+                    </div>
+                    <p>We offer a 30 Day Money Back Guarantee, so joining is <span>Risk-Free!</span></p>
+                </div>
+            </section>
+            <div class="circle-2"></div>
+        </div>
+        <div class="footer-2">
+            <div class="cards">
+                <div class="card card-1">
+                    <i class="fa-brands fa-facebook-f" style="color: blue;"></i>
+                    <p>156 K</p>
+                    <p style="color: rgb(195, 192, 192); letter-spacing: 1px; font-size: 14px; font-weight: 400;">Followers</p>
+                </div>
+                <div class="card card-2">
+                    <i class="fa-solid fa-users" style="color: rgb(78, 78, 243);"></i>
+                    <p>75 K</p>
+                    <p style="color: rgb(195, 192, 192); letter-spacing: 1px; font-size: 14px; font-weight: 400;">Members</p>
+                </div>
+                <div class="card card-3">
+                    <i class="fa-brands fa-twitter" style="color: rgb(8, 175, 241)"></i>
+                    <p>64 K</p>
+                    <p style="color: rgb(195, 192, 192); letter-spacing: 1px; font-size: 14px; font-weight: 400;">Followers</p>
+                </div>
+                <div class="card card-4">
+                    <i class="fa-solid fa-envelope" style="color: gray;"></i>
+                    <p>325 K</p>
+                    <p style="color: rgb(195, 192, 192); letter-spacing: 1px; font-size: 14px; font-weight: 400;">Subscribers</p>
+                </div>
+                <div class="card card-5" >
+                    <i class="fa-brands fa-youtube" style="color: red;"></i>
+                    <p>188 K</p>
+                    <p style="color: rgb(195, 192, 192); letter-spacing: 1px; font-size: 14px; font-weight: 400;">Subscribers</p>
+                </div>
+                <div class="card card-6">
+                    <i class="fa-solid fa-basketball" style="color: rgb(235, 30, 65);"></i>
+                    <p>6 K</p>
+                    <p style="color: rgb(195, 192, 192); letter-spacing: 1px; font-size: 14px; font-weight: 400;">Followers</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="rows">
+                    <h5>DIVI FEATURES</h5>
+                    <p>All Features</p>
+                    <p>Divi Modules</p>
+                    <p>Divi Layouts</p>
+                    <p>No-Code Builder</p>
+                    <p>Workflow</p>
+                    <p>Ecommerce Websites</p>
+                    <p>Theme Builder</p>
+                    <p>Marketing Platform</p>
+                    <p>Speed & Performance</p>
+                    <p>Developers</p>
+                    <p>Premium Support</p>
+                </div>
+                <div class="rows">
+                    <h5>PRODUCTS</h5>
+                    <p>Divi Theme</p>
+                    <p>Divi Marketplace</p>
+                    <p>Divi Cloud</p>
+                    <p>Divi AIBrand New!</p>
+                    <p>Divi Teams</p>
+                    <p>Divi VIP</p>
+                    <p>Divi Hosting</p>
+                    <p>Extra Theme</p>
+                    <p>Bloom Plugin</p>
+                    <p>Monarch Plugin</p>
+                    <p>Plans & Pricing</p>
+                </div>
+                <div class="rows">
+                    <h5>RESOURCES</h5>
+                    <p>Documentation</p>
+                    <p>Help Articles & FAQ</p>
+                    <p>24/7 Support</p>
+                    <p>Developer Docs</p>
+                    <p>System Status</p>
+                </div>
+                <div class="rows">
+                    <h5>BLOG</h5>
+                    <p>Recent Posts</p>
+                    <p>Product Updates</p>
+                    <p>Divi Resources</p>
+                    <p>Business</p>
+                    <p>WordPress</p>
+                    <p>Best Plugins</p>
+                    <p>Top Tools</p>
+                    <p>Best Hosting</p>
+                </div>
+                <div class="rows">
+                    <h5>COMMUNITY</h5>
+                    <p>Divi Meetups</p>
+                    <p>Divi Facebook Group</p>
+                    <p>Divi Examples</p>
+                    <p>Divi Integrations</p>
+                    <p>Divi Reviews</p>
+                    <p>Community Forum</p>
+                    <p>Affiliate Program</p>
+                </div>
+                <div class="rows">
+                    <h5>ABOUT</h5>
+                    <p>About Us</p>
+                    <p>Careers</p>
+                    <p>Contact Us</p>
+                    <p>Terms of Service</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+            <div class="footer-images">
+                <div class="image">
+                    <img src="https://www.elegantthemes.com/images/logos/trustedsite.svg" alt="">
+                </div>
+                <div class="image">
+                    <img src="https://www.elegantthemes.com/images/logos/norton.svg" alt="">
+                </div>
+                <div class="image">
+                    <img src="https://www.elegantthemes.com/images/logos/bbb.svg" alt="">
+                </div>
+                <div class="image">
+                    <img src="https://www.elegantthemes.com/images/logos/trustpilot.svg" alt="">
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright © 2024 Elegant Themes ®</p>
+            </div>
+    </footer>
+  </body>
+</html>
